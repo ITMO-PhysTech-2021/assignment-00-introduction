@@ -1,3 +1,7 @@
+"""
+Не редактируйте этот файл!
+"""
+
 from tasks.t02_fractions import add_fractions
 from random import randint
 
