@@ -2,11 +2,11 @@
 Не редактируйте этот файл!
 """
 
-from tasks.fractions import add_fractions
+from .fractions import add_fractions
 from random import randint
 
 
-def check_baseline():
+def test_baseline():
     for data in [
         ((1, 1, 1, 1), (2, 1)),
         ((-1, 1, 1, -1), (-2, 1)),
@@ -15,7 +15,7 @@ def check_baseline():
         assert add_fractions(*data[0]) == data[1]
 
 
-def check_random(n_iter=10, eps=1e-9):
+def test_random_stress(n_iter=10, eps=1e-9):
     def __gcd(x, y):
         return x if y == 0 else __gcd(y, x % y)
 
