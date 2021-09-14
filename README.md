@@ -37,7 +37,7 @@ GitHub через access token.
 
 ## 2. Установка языка и среды
 
-1. Установите [Python 3.9](https://www.python.org/downloads/)
+1. Установите [Python 3.8](https://www.python.org/downloads/)
     * Убедитесь, что `python` или `python3` можно вызвать из командной строки
     * На всякий случай обновите пакетный менеджер `pip` (для этого придется запустить скрипт от имени администратора) с
       помощью команды `python -m pip install --upgrade pip`
